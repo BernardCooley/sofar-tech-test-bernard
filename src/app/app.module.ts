@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EventsPageComponent } from './pages/events-page/events-page.component';
+import { EventListingContainerComponent } from './components/event-listing-container/event-listing-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventsPageComponent
+    EventsPageComponent,
+    EventListingContainerComponent
   ],
   imports: [
     BrowserModule,
