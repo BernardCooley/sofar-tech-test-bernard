@@ -34,6 +34,7 @@
             flex-grow: 10;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             margin: 10px;
 
             .dayAndLocation {
@@ -48,6 +49,14 @@
                     font-weight: bold;
                 }
             }
+            .eventArrow {
+                height: 25px;
+            }
         }
+    }
+    .showResultsItem:hover {
+        background-color: lightgray;
+        cursor: pointer;
+        border: 2px solid black;
     }
 }
