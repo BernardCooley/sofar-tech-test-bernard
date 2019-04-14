@@ -2,6 +2,7 @@ import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { EventFiltersComponent } from './components/event-filters/event-filters.component';
+import { SofarHeaderComponent } from './components/sofar-header/sofar-header.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -11,7 +12,8 @@ describe('AppComponent', () => {
       ],
       declarations: [
         AppComponent,
-        EventFiltersComponent
+        EventFiltersComponent,
+        SofarHeaderComponent
       ],
     }).compileComponents();
   }));
