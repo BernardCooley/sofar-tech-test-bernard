@@ -7,6 +7,7 @@ import { EventsPageComponent } from './pages/events-page/events-page.component';
 import { EventListingContainerComponent } from './components/event-listing-container/event-listing-container.component';
 import { RouterModule, Routes } from '@angular/router';
 import { EventFiltersComponent } from './components/event-filters/event-filters.component';
+import { SofarHeaderComponent } from './components/sofar-header/sofar-header.component';
 
 const appRoutes: Routes = [
   {
@@ -20,7 +21,8 @@ const appRoutes: Routes = [
     AppComponent,
     EventsPageComponent,
     EventListingContainerComponent,
-    EventFiltersComponent
+    EventFiltersComponent,
+    SofarHeaderComponent
   ],
   imports: [
     BrowserModule,
