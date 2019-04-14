@@ -8,7 +8,9 @@ describe('EventListingContainerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EventListingContainerComponent ]
+      declarations: [
+        EventListingContainerComponent
+      ]
     })
     .compileComponents();
   }));

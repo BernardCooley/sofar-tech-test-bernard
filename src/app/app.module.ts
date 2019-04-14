@@ -5,6 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EventsPageComponent } from './pages/events-page/events-page.component';
 import { EventListingContainerComponent } from './components/event-listing-container/event-listing-container.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  {
+    path: '', 
+    component: EventsPageComponent
+  }
+];
 
 @NgModule({
   declarations: [
@@ -14,7 +22,8 @@ import { EventListingContainerComponent } from './components/event-listing-conta
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
