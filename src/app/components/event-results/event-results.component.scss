@@ -1,0 +1,53 @@
+.showsResultsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    .showResultsItem {
+        height: auto;
+        border: 2px solid lightgray;
+        display: flex;
+        margin: 5px 0;
+
+        .dayMonthContainer {
+            width: 50px;
+            border-right: 2px solid lightgray;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .dateContainer, .monthContainer {
+                text-align: center;
+            }
+
+            .dateContainer {
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .monthContainer {
+                font-size: 15px;
+            }
+        }
+
+        .locationContainer {
+            flex-grow: 10;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+
+            .dayAndLocation {
+
+                .day {
+                    font-size: 15px;
+                    color: gray;
+                    font-weight: bold;
+                }
+                .location {
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

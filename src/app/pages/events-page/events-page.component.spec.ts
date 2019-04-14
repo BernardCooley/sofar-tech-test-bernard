@@ -3,6 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { EventsPageComponent } from './events-page.component';
 import { EventListingContainerComponent } from '../../components/event-listing-container/event-listing-container.component';
 import { EventFiltersComponent } from '../../components/event-filters/event-filters.component';
+import { EventResultsComponent } from '../../components/event-results/event-results.component';
 
 describe('EventsPageComponent', () => {
   let component: EventsPageComponent;
@@ -13,7 +14,8 @@ describe('EventsPageComponent', () => {
       declarations: [
         EventsPageComponent,
         EventListingContainerComponent,
-        EventFiltersComponent
+        EventFiltersComponent,
+        EventResultsComponent
       ]
     })
     .compileComponents();

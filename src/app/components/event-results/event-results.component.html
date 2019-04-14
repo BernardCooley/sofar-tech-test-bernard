@@ -1,0 +1,22 @@
+<div class="showsResultsContainer">
+    <div class="showResultsItem" *ngFor="let show of shows">
+      <div class="dayMonthContainer">
+        <div class="dateContainer">
+          {{show.date.dayOfMonth}}
+        </div>
+        <div class="monthContainer">
+          {{show.date.month.toUpperCase()}}
+        </div>
+      </div>
+      <div class="locationContainer">
+        <div class="dayAndLocation">
+          <div class="day">
+            {{show.date.dayOfWeek.toUpperCase()}}
+          </div>
+          <div class="location">
+            {{show.location}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

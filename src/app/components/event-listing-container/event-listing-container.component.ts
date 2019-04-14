@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventListingContainerComponent implements OnInit {
 
+  public genre;
+
   constructor() { }
+
+  filterEvents(event) {
+    this.genre = event;
+  }
 
   ngOnInit() {
   }

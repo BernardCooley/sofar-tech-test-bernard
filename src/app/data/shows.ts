@@ -1,4 +1,5 @@
-export const showsData = [{
+export const showsData = [
+  {
     "date": {
       "dayOfWeek": "Thursday",
       "dayOfMonth": 13,
@@ -54,4 +55,5 @@ export const showsData = [{
     },
     "location": "Hackney",
     "genre": "folk"
-  }]
+  }
+]
