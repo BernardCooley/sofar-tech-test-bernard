@@ -1,0 +1,41 @@
+.eventFiltersContainer {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+
+    .filtersList {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+
+        .filterItemContainer {
+            width: 100%;
+            border-left: 2px solid #10ad52;
+            border-top: 2px solid #10ad52;
+            border-bottom: 2px solid #10ad52;
+            color: #10ad52;
+
+            .filterItem {
+                height: 100%;
+                width: 100%;
+                text-align: center;
+                line-height: 50px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .filterItem:hover {
+                background-color: #10ad52;
+                color: white;
+                cursor: pointer;
+            }
+        }
+        .filterItemContainer:last-child {
+            border-right: 2px solid #10ad52;
+        }
+        .active {
+            background-color: #10ad52;
+            color: white;
+        }
+    }
+}

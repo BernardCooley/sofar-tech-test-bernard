@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { EventsPageComponent } from './pages/events-page/events-page.component';
 import { EventListingContainerComponent } from './components/event-listing-container/event-listing-container.component';
 import { RouterModule, Routes } from '@angular/router';
+import { EventFiltersComponent } from './components/event-filters/event-filters.component';
 
 const appRoutes: Routes = [
   {
@@ -18,7 +19,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     EventsPageComponent,
-    EventListingContainerComponent
+    EventListingContainerComponent,
+    EventFiltersComponent
   ],
   imports: [
     BrowserModule,

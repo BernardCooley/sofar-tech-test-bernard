@@ -1,0 +1,13 @@
+<div class="eventFiltersContainer">
+  <div class="filtersList">
+    <div class="filterItemContainer" [ngClass]="{'active':activeGenre == genre}" *ngFor="let genre of genres">
+      <div class="filterItem" (click)="filterEvents(genre)">
+        {{genre.toUpperCase()}}
+      </div>
+    </div>
+  </div>
+
+  <div class="showListContainer">
+    
+  </div>
+</div>
